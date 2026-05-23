@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Oyeniyi Susanna Adesewa's personal portfolio — web developer who builds beautiful, fast, and responsive websites using HTML, CSS, and JavaScript." />
+    <title>Susanna Adesewa | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    <header id="site-header">
+        <div class="container header-inner">
+            <div class="logo">Susanna</div>
+            <nav class="nav-desktop" aria-label="Main navigation">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button id="hamburger-btn" class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="mobile-nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        <nav id="mobile-nav" class="nav-mobile" aria-label="Mobile navigation" hidden>
+            <div class="container">
+                <a href="#home" class="nav-link mobile-link">Home</a>
+                <a href="#about" class="nav-link mobile-link">About</a>
+                <a href="#projects" class="nav-link mobile-link">Projects</a>
+                <a href="#contact" class="nav-link mobile-link">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Hi, I'm Susanna</h1>
+            <p class="hero-subtitle">I build beautiful, responsive websites.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-intro">
+                <p>
+                    I'm Oyeniyi Susanna Adesewa, a passionate web developer with a love for creating beautiful,
+                    functional websites. With expertise in HTML, CSS, and JavaScript,
+                    I transform ideas into engaging digital experiences that users love.
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/icon-code.svg" alt="" aria-hidden="true" width="32" height="32" />
+                    </div>
+                    <h3>Development</h3>
+                    <p>Clean, efficient HTML, CSS &amp; JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/icon-palette.svg" alt="" aria-hidden="true" width="32" height="32" />
+                    </div>
+                    <h3>Design</h3>
+                    <p>Beautiful, user-friendly interfaces</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <img src="assets/icons/icon-zap.svg" alt="" aria-hidden="true" width="32" height="32" />
+                    </div>
+                    <h3>Performance</h3>
+                    <p>Fast, responsive &amp; accessible websites</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">
+                Here are some of my recent works that showcase my skills
+                and passion for web development.
+            </p>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Project cards inserted here by script.js -->
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-inner">
+            <h2 class="footer-title">Let's Connect</h2>
+            <div class="social-links">
+                <a href="#" class="social-btn" aria-label="Visit my GitHub profile">
+                    <img src="assets/icons/icon-github.svg" alt="" aria-hidden="true" width="20" height="20" />
+                </a>
+                <a href="#" class="social-btn" aria-label="Connect on LinkedIn">
+                    <img src="assets/icons/icon-linkedin.svg" alt="" aria-hidden="true" width="20" height="20" />
+                </a>
+                <a href="#" class="social-btn" aria-label="Follow me on Twitter">
+                    <img src="assets/icons/icon-twitter.svg" alt="" aria-hidden="true" width="20" height="20" />
+                </a>
+                <a href="mailto:susanna@example.com" class="social-btn" aria-label="Send me an email">
+                    <img src="assets/icons/icon-mail.svg" alt="" aria-hidden="true" width="20" height="20" />
+                </a>
+            </div>
+            <p class="footer-copy" id="footer-copy"></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
